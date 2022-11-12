@@ -12,11 +12,13 @@ function ActionBar(props: any) {
             px="30px"
             py="20px"
             sx={{ backgroundColor: '#435d7d' }}
+            flexWrap="wrap"
+            rowGap="16px"
         >
             <Typography color="white" fontWeight="bold" variant="h4">
                 Grocery List
             </Typography>
-            <Stack direction="row" spacing="8px">
+            <Stack direction="row" gap="8px" flexWrap="wrap">
                 <Button
                     variant="contained"
                     color="inherit"
